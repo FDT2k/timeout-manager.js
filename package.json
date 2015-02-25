@@ -1,0 +1,22 @@
+{
+  "name": "timeout-manager",
+  "version": "0.1.0",
+  "description": "Manages a collection of timeouts by key, with simple interaction.",
+  "main": "timeout-manager.js",
+  "author": "Help.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helpdotcom/timeout-manager.js.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "docco": "~0.7.0",
+    "jshint": "~2.6"
+  },
+  "scripts": {
+    "doc": "docco timeout-manager.js",
+    "lint": "jshint timeout-manager.js"
+  }
+}
